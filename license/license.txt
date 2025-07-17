@@ -1,0 +1,31 @@
+MercuryLuxPc License Agreement
+
+Copyright (c) 2025 Ray Faucher (KB1SO)
+All rights reserved.
+
+MercuryLuxPc is a proprietary application developed for use with the KM3KM Mercury LUX amplifier. It is approved by KM3KM Electronics as a compatible third-party software tool. Its use does not void or affect the amplifier's product warranty.
+
+This software is licensed under the GNU Lesser General Public License (LGPL), version 3.0.
+
+While MercuryLuxPc dynamically links to libraries licensed under LGPL-3.0, the source code for MercuryLuxPc itself is proprietary and not publicly distributed. Under the terms of LGPL-3.0, this is allowed when dynamic linking is used.
+
+This license grants you the right to use, run, and redistribute the MercuryLuxPc application, subject to the following terms:
+
+1. You may use this software free of charge for personal or commercial use.
+2. You may not reverse engineer, modify, or redistribute the MercuryLuxPc binary without express written permission.
+3. You may redistribute MercuryLuxPc as-is, without modification, provided this license and copyright notice remain intact.
+4. You may request access to the LGPL-covered libraries (if dynamically linked) and information on how to replace or relink them, as required by LGPL compliance.
+
+DISCLAIMER:
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHOR OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+For a copy of the LGPL-3.0 license, visit:
+https://www.gnu.org/licenses/lgpl-3.0.html
+
+This application uses OpenSSL, which is licensed under the OpenSSL and original SSLeay licenses.
+
+Copyright (c) 1998-2023 The OpenSSL Project
+All rights reserved.
+
+For full license terms, see license/openssl.txt.
+https://openssl-library.org/source/license/index.html
