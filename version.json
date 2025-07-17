@@ -1,0 +1,10 @@
+{
+  "version": "0.1.0-beta",
+  "changelog": "Initial beta with real-time telemetry, TLS support, and multi-platform support.",
+  "downloads": {
+    "windows": "https://github.com/RayJr2/MercuryXPc/releases/download/v0.1.0-beta/MercuryLuxPc-Setup.exe",
+    "macos": "https://github.com/RayJr2/MercuryXPc/releases/download/v0.1.0-beta/MercuryLuxPc.dmg",
+    "linux-x64": "https://github.com/RayJr2/MercuryXPc/releases/download/v0.1.0-beta/MercuryLuxPc-x64.AppImage",
+    "linux-arm64": "https://github.com/RayJr2/MercuryXPc/releases/download/v0.1.0-beta/MercuryLuxPc-aarch64.AppImage"
+  }
+}

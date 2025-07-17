@@ -115,21 +115,29 @@ Implements all known host-to-LUX commands:
   tar -xzf MercuryLuxPc-<version>-<arch>.tar.gz
   cd MercuryLuxPc
   ./install.sh
+  ```
 
-- Launch from the system menu under Accessories → MercuryLuxPc or by running:
+- **Launch** from the system menu under **Accessories → MercuryLuxPc** or by running:
+
   ```bash
   ./run.sh
-- Uninstall with:
+  ```
+
+- **Uninstall** with:
+
   ```bash
   ./uninstall.sh
-  
+  ```
+
+---
+
 ### 🍎 macOS
 - Packaged as a disk image (`.dmg`).
-- Download the macOS .dmg from the Releases.
-- Double-click the .dmg to mount it, then drag the app to the Applications folder.
-- If prompted by Gatekeeper, choose Open Anyway from System Preferences → Security & Privacy.
-- Launch from Launchpad or the Applications folder.
-- To Uninstall, simply delete MercuryLuxPc.app from the Applications folder.
+- **Download** the macOS `.dmg` from the [Releases](#).
+- **Double-click** the `.dmg` to mount it, then drag the app to the **Applications** folder.
+- If prompted by **Gatekeeper**, choose **Open Anyway** from **System Preferences → Security & Privacy**.
+- **Launch** from **Launchpad** or the **Applications** folder.
+- To **Uninstall**, simply delete `MercuryLuxPc.app` from the **Applications** folder.
 
 ---
 
