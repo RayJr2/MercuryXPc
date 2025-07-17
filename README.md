@@ -63,6 +63,7 @@ Developed using **Qt (C++)**, the application provides real-time telemetry visua
 - Responsive layout for amplifier telemetry and connection state
 - Setup dialog for configuring ports, network, fonts, and preferences
 - Log viewer dialog with real-time messages and clear log functionality
+- Dialog for generating self-signed TLS certificate and private key
 
 ---
 
@@ -94,6 +95,44 @@ Implements all known host-to-LUX commands:
 
 ---
 
+## 🛠️ Install
+
+### 🪟 Windows
+- Packaged as a Windows installer (`.exe`).
+- **Download** the latest Windows release from the [Releases](#) section.
+- **Run** the setup executable and follow the installation wizard.
+- **Launch** the application from **Start Menu → MercuryLuxPc** or use the desktop shortcut.
+- **Uninstall** via **Settings → Apps → Installed Apps → MercuryLuxPc**.
+
+---
+
+### 🐧 Linux
+- Packaged as a compressed tarball (`.tar.gz`).
+- **Download** the release that matches your architecture: `x86_64` or `aarch64` (for Raspberry Pi-5).
+- Open a terminal and run:
+
+  ```bash
+  tar -xzf MercuryLuxPc-<version>-<arch>.tar.gz
+  cd MercuryLuxPc
+  ./install.sh
+
+- Launch from the system menu under Accessories → MercuryLuxPc or by running:
+  ```bash
+  ./run.sh
+- Uninstall with:
+  ```bash
+  ./uninstall.sh
+  
+### 🍎 macOS
+- Packaged as a disk image (`.dmg`).
+- Download the macOS .dmg from the Releases.
+- Double-click the .dmg to mount it, then drag the app to the Applications folder.
+- If prompted by Gatekeeper, choose Open Anyway from System Preferences → Security & Privacy.
+- Launch from Launchpad or the Applications folder.
+- To Uninstall, simply delete MercuryLuxPc.app from the Applications folder.
+
+---
+
 ## 🛠️ Development
 - **Qt Version:** Qt 6.x recommended
 - **C++17+**
@@ -103,9 +142,15 @@ Implements all known host-to-LUX commands:
 ---
 
 ## 🔐 Generating Self-Signed TLS Certificates
-- You can generate a self-signed certificate with OpenSSL:
 
- openssl req -x509 -newkey rsa:2048 -keyout server.key -out server.crt -days 365 -nodes
+You can generate a self-signed TLS certificate using the built-in tool:
+
+- In the application, go to **Tools → Generate TLS Certificate**.
+- This will create a valid self-signed `server.crt` and `server.key` for use with TLS connections.
+
+Alternatively, you can generate a certificate manually using OpenSSL:
+
+openssl req -x509 -newkey rsa:2048 -keyout server.key -out server.crt -days 365 -nodes
  
 ---
 
@@ -121,7 +166,6 @@ Implements all known host-to-LUX commands:
 This project is licensed under the [GNU Lesser General Public License v3.0 (LGPLv3)](https://www.gnu.org/licenses/lgpl-3.0.html).
 
 > MercuryLuxPc is an approved third-party application by KM3KM Electronics. Its use does not void the amplifier warranty.
-
 
 ---
 
