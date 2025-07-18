@@ -112,8 +112,8 @@ Implements all known host-to-LUX commands:
 - Open a terminal and run:
 
   ```bash
-  tar -xzf MercuryLuxPc-<version>-<arch>.tar.gz
-  cd MercuryLuxPc
+  tar -xzf MercuryLuxPc_<arch>.tar.gz
+  cd MercuryLuxPc_<arch>/<arch>_<version>/MercuryLuxPc
   ./install.sh
   ```
 
@@ -173,7 +173,7 @@ openssl req -x509 -newkey rsa:2048 -keyout server.key -out server.crt -days 365 
 
 This project is licensed under the [GNU Lesser General Public License v3.0 (LGPLv3)](https://www.gnu.org/licenses/lgpl-3.0.html).
 
-> MercuryLuxPc is an approved third-party application by KM3KM Electronics. Its use does not void the amplifier warranty.
+> **Note:** *MercuryLuxPc is an approved third-party application by KM3KM Electronics. Its use does not void the amplifier warranty.*
 
 ---
 
@@ -182,8 +182,8 @@ This project is licensed under the [GNU Lesser General Public License v3.0 (LGPL
 This application is developed using the [Qt](https://www.qt.io/) Toolkit under the [GNU Lesser General Public License v3.0 (LGPLv3)](https://www.gnu.org/licenses/lgpl-3.0.html).  
 It is **dynamically linked** to comply with LGPL requirements.
 
-- **Qt Version:** 6.7.3  
-- **Compiler:** MinGW 64-bit  
+- **Qt Version:** `6.7.3`  
+- **Compiler:** `MinGW 64-bit`  
 - **Modules Used:**
   - `QtCore`
   - `QtGui`
@@ -197,4 +197,14 @@ It is **dynamically linked** to comply with LGPL requirements.
 
 Developed by **Ray Faucher (KB1SO)**  
 📡 [https://www.qrz.com/db/KB1SO](https://www.qrz.com/db/KB1SO)
+
+Beta testers and users are encouraged to use the following GitHub tools for support and feedback:
+
+- 🐞 **Report bugs and request features:**  
+  [GitHub Issues](https://github.com/RayJr2/MercuryXPc/issues)
+
+- 💬 **Ask questions, share feedback, or discuss ideas:**  
+  [GitHub Discussions](https://github.com/RayJr2/MercuryXPc/discussions)
+
+Your feedback helps improve the MercuryLuxPc application—thank you for contributing!
 

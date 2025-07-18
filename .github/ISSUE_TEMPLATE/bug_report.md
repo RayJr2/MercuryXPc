@@ -11,13 +11,13 @@ assignees: ''
 A clear and concise description of what the bug is. Include pertinent version numbers, such as version from Help->About, amplifier product name and firmware version, OS version etc.
 
 **To Reproduce**
-Steps to reproduce the behaviour:
+Steps to reproduce the behavior:
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
 4. See error
 
-**Expected behaviour**
+**Expected behavior**
 A clear and concise description of what you expected to happen.
 
 **Screenshots**

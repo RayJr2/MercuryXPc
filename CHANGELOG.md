@@ -14,7 +14,7 @@ All notable changes to this project will be documented in this file.
 
 ### Known Issues
 - macOS Gatekeeper warning (requires manual override in **System Settings → Security & Privacy**)
-- No automatic update mechanism yet
+- Not all warning codes map to friendly name when amp goes into alarm
 
 ### Download Links
 Go to [Releases](https://github.com/RayJr2/MercuryXPc/releases) to download the latest builds.
