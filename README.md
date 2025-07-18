@@ -26,6 +26,11 @@ Developed using **Qt (C++)**, the application provides real-time telemetry visua
 - Secure WebSocket (`wss://`) communication
 - Flexible file-based cert/key loading (no recompilation required)
 
+### 🔄 Built-In Updater
+- **Help → Check for Updates** menu option  
+- Automatically checks GitHub for latest release  
+- Prompts user and downloads new version if available  
+
 ---
 
 ## 📊 Telemetry & Visualization
