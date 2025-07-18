@@ -1,6 +1,7 @@
 # MercuryLuxPc
 
-**MercuryLuxPc** is a cross-platform desktop application for monitoring and controlling the **KM3KM Mercury LUX amplifier**. It supports both **Windows** and **Linux (including Raspberry Pi 5)** and offers enhanced functionality over the default KM3KM desktop app.
+**MercuryLuxPc** is a cross-platform desktop application for monitoring and controlling the **KM3KM Mercury LUX amplifier**.  
+It supports **Windows**, **macOS**, and **Linux** (including **Raspberry Pi 5**), offering enhanced functionality over the default KM3KM desktop app.
 
 Developed using **Qt (C++)**, the application provides real-time telemetry visualization, TCP/IP remote access, TLS encryption, and flexible UI options for station customization and remote operation.
 
