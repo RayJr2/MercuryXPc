@@ -14,17 +14,20 @@ Developed using **Qt (C++)**, the application provides real-time telemetry visua
 - Auto-detects available COM ports
 - Initializes amplifier and enables serial telemetry
 - Manual calibration support
+- **Automatic serial port reconnect** when amplifier is turned back on
 
 ### 📡 TCP/IP Remote Connectivity
 - Optional TCP/IP support (Disabled / Server / Client mode)
 - User-defined WebSocket address and port
 - Secure WebSocket (TLS) support with user-supplied certs
 - Full two-way communication (telemetry and control)
+- **Client state clears immediately if server closes** (no stale values)
 
 ### 🔐 TLS Encryption
 - Optional TLS support using self-signed or CA-issued certs
 - Secure WebSocket (`wss://`) communication
 - Flexible file-based cert/key loading (no recompilation required)
+- Built-in TLS certificate generator (self-signed)
 
 ### 🔄 Built-In Updater
 - **Help → Check for Updates** menu option  
@@ -40,14 +43,20 @@ Developed using **Qt (C++)**, the application provides real-time telemetry visua
 - Reflected Power (Watts / SWR / Return Loss)
 - Drain Voltage (V)
 - Drain Current (A)
-- Temperature (°C)
-- Efficiency (calculated)
-- Band, Antenna, and Alarm State
+- Temperature (°C / °F)
+- Efficiency (%)
+- Band, Antenna, Fan, Standby/Operate, and Alarm State
+- **On-Air indicator**: high-visibility bold white text on red background
 
 ### PowerBar Widgets
 - Threshold-based color transitions
 - Configurable value ranges and labels
 - Optional overlay values (e.g., SWR, Efficiency)
+- **Meter modes**: Live, Peak, Hold, None
+- **EMA smoothing option** for readable fast-changing values
+- **Cadence-based updates** for following SSB/CW signals
+- Hide/show tick marks and tick labels
+- Tick labels color-coded to thresholds (green/yellow/red)
 
 ---
 
@@ -59,6 +68,7 @@ Developed using **Qt (C++)**, the application provides real-time telemetry visua
 - Hot-reload of settings during runtime
 - User-selectable font family, size, weight, and style
 - Application font saved and restored between sessions
+- **CW-friendly polling settings** (idle poll & post-TX quiet time) to prevent PTT delay
 
 ---
 
