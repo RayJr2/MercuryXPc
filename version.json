@@ -1,6 +1,6 @@
 {
-  "version": "0.1.0-beta",
-  "changelog": "Initial beta with real-time telemetry, TLS support, and multi-platform support.",
+  "version": "0.3.0-beta",
+  "changelog": "Enhanced telemetry and usability update — new meter modes, EMA smoothing, CW-friendly polling, auto-reconnect, and improved reliability.",
   "downloads": {
     "windows": "https://github.com/RayJr2/MercuryXPc/releases/latest/download/MercuryLuxPc_Setup.exe",
     "macos":   "https://github.com/RayJr2/MercuryXPc/releases/latest/download/MercuryLuxPc.dmg",
