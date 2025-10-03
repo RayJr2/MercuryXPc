@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0-beta",
+  "version": "0.3.1-beta",
   "changelog": "Enhanced telemetry and usability update — new meter modes, EMA smoothing, CW-friendly polling, auto-reconnect, and improved reliability.",
   "downloads": {
     "windows": "https://github.com/RayJr2/MercuryXPc/releases/latest/download/MercuryLuxPc_Setup.exe",
