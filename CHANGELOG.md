@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.3.1-beta] - 2025-10-03
+
+### 🐞 Fixes
+- Fixed issue with meter graduations running together when downsizing the window.
+- Fixed issue of blank form when Always on Top enabled.
+
+---
+
 ## [0.3.0-beta] - 2025-09-10
 
 ### ✨ Features
