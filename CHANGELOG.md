@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.3.2-beta] - 2025-10-16
+
+### ✨ Features
+- Added **User-configurable antenna labels** in Setup → Appearance with persistent custom names across sessions.
+- Added **Hotkeys:** user-configurable shortcuts to switch antennas and trigger actions; supports in-app and optional global (system-wide) capture on Windows, macOS, and X11.
+
+### 🐞 Fixes
+- Improved **Updater** robust version parsing (incl. pre-release), better errors/timeouts, and backward-compatible manifest support for version + changelog/notes.
+
+---
+
 ## [0.3.1-beta] - 2025-10-03
 
 ### 🐞 Fixes
