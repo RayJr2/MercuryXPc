@@ -1,10 +1,18 @@
 {
-  "version": "0.3.1-beta",
-  "changelog": "Enhanced telemetry and usability update — new meter modes, EMA smoothing, CW-friendly polling, auto-reconnect, and improved reliability.",
+  "version": "0.3.2",
+  "changelog": "Global Hotkeys (Win/macOS/Linux) with user-defined shortcuts and conflict status; antenna label renaming that persists across all views; improved Shortcut Picker (Record/Clear, multi-modifier combos like Ctrl+Shift+A, compact list); Hotkeys table with per-row Test results; native X11/macOS backends for out-of-focus hotkeys; updater reliability with backward-compatible manifest; assorted UI polish and stability fixes.",
+  "notes": "Global Hotkeys (Win/macOS/Linux) with user-defined shortcuts and conflict status; antenna label renaming that persists across all views; improved Shortcut Picker (Record/Clear, multi-modifier combos like Ctrl+Shift+A, compact list); Hotkeys table with per-row Test results; native X11/macOS backends for out-of-focus hotkeys; updater reliability with backward-compatible manifest; assorted UI polish and stability fixes.",
+  "url": "https://github.com/RayJr2/MercuryXPc/releases/latest",
   "downloads": {
     "windows": "https://github.com/RayJr2/MercuryXPc/releases/latest/download/MercuryLuxPc_Setup.exe",
-    "macos":   "https://github.com/RayJr2/MercuryXPc/releases/latest/download/MercuryLuxPc.dmg",
-    "linux64": "https://github.com/RayJr2/MercuryXPc/releases/latest/download/MercuryLuxPc_x86_x64.tar.gz",
-    "linuxarm":"https://github.com/RayJr2/MercuryXPc/releases/latest/download/MercuryLuxPc_aarch64.tar.gz"
+    "win":     "https://github.com/RayJr2/MercuryXPc/releases/latest/download/MercuryLuxPc_Setup.exe",
+    "macos": "https://github.com/RayJr2/MercuryXPc/releases/latest/download/MercuryLuxPc.dmg",
+    "mac":   "https://github.com/RayJr2/MercuryXPc/releases/latest/download/MercuryLuxPc.dmg",
+    "linux-x86_64": "https://github.com/RayJr2/MercuryXPc/releases/latest/download/MercuryLuxPc_x86_x64.tar.gz",
+    "linux64":      "https://github.com/RayJr2/MercuryXPc/releases/latest/download/MercuryLuxPc_x86_x64.tar.gz",
+    "linux-amd64":  "https://github.com/RayJr2/MercuryXPc/releases/latest/download/MercuryLuxPc_x86_x64.tar.gz",
+    "linux-aarch64": "https://github.com/RayJr2/MercuryXPc/releases/latest/download/MercuryLuxPc_aarch64.tar.gz",
+    "linuxarm":      "https://github.com/RayJr2/MercuryXPc/releases/latest/download/MercuryLuxPc_aarch64.tar.gz",
+    "linux-arm64":   "https://github.com/RayJr2/MercuryXPc/releases/latest/download/MercuryLuxPc_aarch64.tar.gz"
   }
 }
