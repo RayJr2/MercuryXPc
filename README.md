@@ -14,14 +14,14 @@ Developed using **Qt (C++)**, the application provides real-time telemetry visua
 - Auto-detects available COM ports
 - Initializes amplifier and enables serial telemetry
 - Manual calibration support
-- **Automatic serial port reconnect** when amplifier is turned back on
+- Automatic serial port reconnect when amplifier is turned back on
 
 ### 📡 TCP/IP Remote Connectivity
 - Optional TCP/IP support (Disabled / Server / Client mode)
 - User-defined WebSocket address and port
 - Secure WebSocket (TLS) support with user-supplied certs
 - Full two-way communication (telemetry and control)
-- **Client state clears immediately if server closes** (no stale values)
+- Client state clears immediately if server closes (no stale values)
 
 ### 🔐 TLS Encryption
 - Optional TLS support using self-signed or CA-issued certs
@@ -30,7 +30,7 @@ Developed using **Qt (C++)**, the application provides real-time telemetry visua
 - Built-in TLS certificate generator (self-signed)
 
 ### 🔄 Built-In Updater
-- **Help → Check for Updates** menu option  
+- Help → Check for Updates menu option  
 - Automatically checks GitHub for latest release  
 - Prompts user and downloads new version if available  
 
@@ -46,15 +46,15 @@ Developed using **Qt (C++)**, the application provides real-time telemetry visua
 - Temperature (°C / °F)
 - Efficiency (%)
 - Band, Antenna, Fan, Standby/Operate, and Alarm State
-- **On-Air indicator**: high-visibility bold white text on red background
+- On-Air indicator, high-visibility bold white text on red background
 
 ### PowerBar Widgets
 - Threshold-based color transitions
 - Configurable value ranges and labels
 - Optional overlay values (e.g., SWR, Efficiency)
-- **Meter modes**: Live, Peak, Hold, None
-- **EMA smoothing option** for readable fast-changing values
-- **Cadence-based updates** for following SSB/CW signals
+- Meter modes: Live, Peak, Hold, None
+- EMA smoothing option for readable fast-changing values
+- Cadence-based updates for following SSB/CW signals
 - Hide/show tick marks and tick labels
 - Tick labels color-coded to thresholds (green/yellow/red)
 
@@ -68,7 +68,7 @@ Developed using **Qt (C++)**, the application provides real-time telemetry visua
 - Hot-reload of settings during runtime
 - User-selectable font family, size, weight, and style
 - Application font saved and restored between sessions
-- **CW-friendly polling settings** (idle poll & post-TX quiet time) to prevent PTT delay
+- CW-friendly polling settings (idle poll & post-TX quiet time) to prevent PTT delay
 
 ---
 
@@ -80,6 +80,8 @@ Developed using **Qt (C++)**, the application provides real-time telemetry visua
 - Setup dialog for configuring ports, network, fonts, and preferences
 - Log viewer dialog with real-time messages and clear log functionality
 - Dialog for generating self-signed TLS certificate and private key
+- Hotkeys, user-configurable shortcuts to switch antennas and trigger actions; supports in-app and optional global (system-wide) capture on Windows, macOS, and X11
+- Custom antenna labels, rename Ant1/Ant2/Ant3 to user-defined names (e.g., “Vertical”, “Hexbeam”) that persist and appear throughout the UI (Setup → Appearance)  
 
 ---
 
