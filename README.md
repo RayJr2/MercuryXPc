@@ -182,7 +182,7 @@ openssl req -x509 -newkey rsa:2048 -keyout server.key -out server.crt -days 365 
 
 ## 📸 Screenshot
 <p align="center">
-  <img src="images/App_Windows11.png" alt="GUI Screenshot" width="600">
+  <img src="images/App_Windows11Ant.png" alt="GUI Screenshot" width="600">
 </p>
 
 ---
