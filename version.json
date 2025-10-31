@@ -1,5 +1,5 @@
 {
-  "version": "0.3.2",
+  "version": "0.3.3",
   "changelog": "Global Hotkeys (Win/macOS/Linux) with user-defined shortcuts and conflict status; antenna label renaming that persists across all views; improved Shortcut Picker (Record/Clear, multi-modifier combos like Ctrl+Shift+A, compact list); Hotkeys table with per-row Test results; native X11/macOS backends for out-of-focus hotkeys; updater reliability with backward-compatible manifest; assorted UI polish and stability fixes.",
   "notes": "Global Hotkeys (Win/macOS/Linux) with user-defined shortcuts and conflict status; antenna label renaming that persists across all views; improved Shortcut Picker (Record/Clear, multi-modifier combos like Ctrl+Shift+A, compact list); Hotkeys table with per-row Test results; native X11/macOS backends for out-of-focus hotkeys; updater reliability with backward-compatible manifest; assorted UI polish and stability fixes.",
   "url": "https://github.com/RayJr2/MercuryXPc/releases/latest",
