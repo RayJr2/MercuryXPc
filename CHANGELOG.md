@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## [0.3.3-beta] - 2025-10-31
+
+### ✨ Features
+- Added automatic client reconnection to the server after a LUX power cycle or server restart.  
+- Added Help Instructions (authored by Mike, W0IH).
+
+---
+
 ## [0.3.2-beta] - 2025-10-16
 
 ### ✨ Features
