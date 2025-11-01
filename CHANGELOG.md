@@ -86,7 +86,6 @@ Advanced meter and comm parameters (e.g., hold/decay rates, polling intervals) a
 
 ### Known Issues
 - macOS Gatekeeper warning (requires manual override in **System Settings → Security & Privacy**)
-- No automatic update mechanism yet
 
 ### Download Links
 Go to [Releases](https://github.com/RayJr2/MercuryXPc/releases) to download the latest builds.
