@@ -9,40 +9,16 @@
       padding: 2em;
       line-height: 1.6;
     }
-
-    h1 {
-      color: #006666;
-      margin-bottom: 1em;
-    }
-
-    h2 {
-      margin-top: 2em;
-    }
-
+    h1 { color: #006666; margin-bottom: 1em; }
+    h2 { margin-top: 2em; }
     pre, code {
-      background-color: #eee;
-      padding: 4px 6px;
-      border-radius: 4px;
-      display: block;
-      overflow-x: auto;
+      background-color: #eee; padding: 4px 6px; border-radius: 4px;
+      display: block; overflow-x: auto;
     }
-
-    ul {
-      padding-left: 1.2em;
-    }
-
     @media (prefers-color-scheme: dark) {
-      body {
-        background-color: #121212;
-        color: #f1f1f1;
-      }
-      code, pre {
-        background-color: #333;
-        color: #fff;
-      }
-      h1 {
-        color: #66d9ef;
-      }
+      body { background-color: #121212; color: #f1f1f1; }
+      code, pre { background-color: #333; color: #fff; }
+      h1 { color: #66d9ef; }
     }
   </style>
 </head>
@@ -50,51 +26,112 @@
 
 <h1>MercuryLuxPc License Agreement</h1>
 
-<p><strong>Copyright (c) 2025 Ray Faucher (KB1SO)</strong><br>
+<p><strong>Copyright © 2025 Ray Faucher (KB1SO)</strong><br>
 All rights reserved.</p>
 
 <p>
-MercuryLuxPc is a proprietary application developed for use with the KM3KM Mercury LUX amplifier. It is approved by KM3KM Electronics as a compatible third-party software tool. Its use does not void or affect the amplifier's product warranty.
+MercuryLuxPc is a proprietary software application developed by RF StateSide, LLC for
+monitoring and controlling the KM3KM Mercury LUX amplifier. The application is approved by
+KM3KM Electronics as compatible third-party software.
+</p>
+
+<h2>1. License Model</h2>
+<p>
+MercuryLuxPc is <strong>proprietary software</strong>. Its source code is <strong>not open source</strong> and
+is not distributed. You are granted a non-exclusive, royalty-free license to use the binary
+application for personal or commercial operation of your equipment.
 </p>
 
 <p>
-This software is licensed under the GNU Lesser General Public License (LGPL), version 3.0.
+MercuryLuxPc makes use of the <strong>Qt framework</strong>, which is licensed under the
+<strong>GNU Lesser General Public License version 3 (LGPLv3)</strong>.
 </p>
 
 <p>
-While MercuryLuxPc dynamically links to libraries licensed under LGPL-3.0, the source code for MercuryLuxPc itself is proprietary and not publicly distributed. Under the terms of LGPL-3.0, this is allowed when dynamic linking is used.
+Your rights under LGPLv3 apply <strong>only</strong> to the Qt libraries and other LGPL-licensed
+components, not to the MercuryLuxPc source code itself.
 </p>
 
-<p>This license grants you the right to use, run, and redistribute the MercuryLuxPc application, subject to the following terms:</p>
-
-<ol>
-  <li>You may use this software free of charge for personal or commercial use.</li>
-  <li>You may not reverse engineer, modify, or redistribute the MercuryLuxPc binary without express written permission.</li>
-  <li>You may redistribute MercuryLuxPc as-is, without modification, provided this license and copyright notice remain intact.</li>
-  <li>You may request access to the LGPL-covered libraries (if dynamically linked) and information on how to replace or relink them, as required by LGPL compliance.</li>
-</ol>
-
-<h2>Disclaimer</h2>
+<h2>2. Compliance With LGPLv3</h2>
 <p>
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL THE AUTHOR OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Under LGPLv3, RF StateSide, LLC provides the following guarantees:
+</p>
+<ul>
+  <li>
+    The application uses <strong>dynamic linking</strong> to all LGPL-covered components
+    (such as QtCore, QtGui, QtWidgets, QtNetwork, etc.).
+  </li>
+  <li>
+    You may replace the Qt libraries used by MercuryLuxPc with your own compatible builds.
+  </li>
+  <li>
+    You may reverse engineer the application <strong>solely for the purpose of debugging
+    modifications to LGPL components</strong>, as required by the license.
+  </li>
+  <li>
+    Upon request, you may obtain:
+    <ul>
+      <li>The exact version of the Qt source code used, or</li>
+      <li>A written offer valid for at least 3 years to provide the Qt source code.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>
+These rights do <strong>not</strong> grant access to, or the right to modify or redistribute,
+the proprietary MercuryLuxPc source code.
+</p>
+
+<h2>3. Restrictions</h2>
+<p>You may not:</p>
+<ul>
+  <li>Modify, decompile, or reverse engineer MercuryLuxPc except as allowed by LGPLv3 for library replacement.</li>
+  <li>Redistribute modified versions of MercuryLuxPc.</li>
+  <li>Sell or repackage the software without permission.</li>
+  <li>Bypass proprietary logic, telemetry protection, or licensing mechanisms.</li>
+</ul>
+
+<h2>4. Redistribution</h2>
+<p>You may redistribute the MercuryLuxPc binary unmodified, provided that:</p>
+<ul>
+  <li>This License Agreement is included and unmodified.</li>
+  <li>Notices relating to Qt and other third-party libraries are preserved.</li>
+  <li>LGPL-licensed libraries remain replaceable by end-users.</li>
+</ul>
+
+<h2>5. Third-Party Components</h2>
+<p>
+MercuryLuxPc uses the Qt framework, licensed under LGPLv3:<br>
+<a href="https://www.gnu.org/licenses/lgpl-3.0.html">https://www.gnu.org/licenses/lgpl-3.0.html</a>
 </p>
 
 <p>
-For a copy of the LGPL-3.0 license, visit:<br>
-<a href="https://www.gnu.org/licenses/lgpl-3.0.html">
-https://www.gnu.org/licenses/lgpl-3.0.html</a>
+This application may also use OpenSSL, licensed under the OpenSSL and original SSLeay licenses:
+<br><br>
+<strong>Copyright © 1998–2023 The OpenSSL Project</strong>
+</p>
+
+<h2>6. No Warranty</h2>
+<p>
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+THIS INCLUDES, BUT IS NOT LIMITED TO, FITNESS FOR A PARTICULAR PURPOSE AND
+NON-INFRINGEMENT.
 </p>
 
 <p>
-This application uses OpenSSL, which is licensed under the OpenSSL and original SSLeay licenses.<br><br>
-<strong>Copyright (c) 1998–2023 The OpenSSL Project</strong><br>
-All rights reserved.
+IN NO EVENT SHALL RF STATESIDE, LLC OR THE AUTHOR BE LIABLE FOR ANY INDIRECT,
+SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING FROM USE OF THE SOFTWARE.
+</p>
+
+<h2>7. Obtaining Qt Source Code</h2>
+<p>To request the exact Qt source used in MercuryLuxPc, contact:</p>
+
+<p>
+Email: <a href="mailto:webmaster@rfstateside.com">webmaster@rfstateside.com</a>
 </p>
 
 <p>
-For full license terms, see:<br>
-<a href="https://openssl-library.org/source/license/index.html">
-https://openssl-library.org/source/license/index.html</a>
+Requests will be honored for at least 3 years from the last distribution of the binary.
 </p>
 
 </body>
